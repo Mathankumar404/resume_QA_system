@@ -1,0 +1,25 @@
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# LlamaIndex core and dependencies
+llama-index==0.10.28
+llama-index-core==0.10.28
+llama-index-embeddings-google-genai==0.1.4
+llama-index-llms-google-genai==0.1.6
+
+# Google GenAI SDK
+google-generativeai==0.5.4
+
+# Pydantic for request validation
+pydantic==2.7.1
+pydantic-core==2.18.2
+
+# For file and data operations
+aiofiles==23.2.1
+
+# Optional: for markdown parsing if needed
+markdown==3.6
+
+# Ensure a compatible numpy and typing environment
+numpy==1.26.4
+typing-extensions==4.12.1
